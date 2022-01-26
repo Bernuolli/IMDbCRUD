@@ -1,0 +1,101 @@
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr{
+    background-color: #D1C0A8;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid  #BFAA8C;
+}
+
+label {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-block;
+    min-width: 120px;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #c5b391;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 3px 1.5px;
+    cursor: pointer;
+    border-radius: 5px 5px;
+    overflow: hidden;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a9957B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #C5B095;
+}
+
+.borito {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.cim {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #836953 !important;
+}
